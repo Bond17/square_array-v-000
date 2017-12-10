@@ -3,6 +3,7 @@ def square_array(array)
   array.each do |number|
     array[index] = number*number
     puts number
+    index += 1
   end
   array
 end
